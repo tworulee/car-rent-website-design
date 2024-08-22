@@ -1,6 +1,7 @@
 import NavBarTop from "@/components/NavBarTop";
 import "../app/globals.css";
 import BigCard from "@/components/BigCard";
+import PickUp from './../components/PickUp';
 
 const index = () => {
   return (
@@ -10,6 +11,10 @@ const index = () => {
         <div className="flex justify-center items-center">
           <BigCard/>
           <BigCard />
+        </div>
+        <div className="flex justify-center items-center">
+            <PickUp/>
+            <PickUp/>
         </div>
       </div>
     </>
