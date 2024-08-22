@@ -21,11 +21,11 @@ const PickUp = () => {
         </div>
       </RadioGroup>
 
-      <div className="flex space-x-4">
-        <div className="flex flex-col">
+      <div className="flex space-x-4 ">
+        <div className="flex flex-col border-r-2">
           <p className="text-sm  ml-3 font-bold text-gray-700">Locations</p>
           <Select>
-            <SelectTrigger className="w-[150px]">
+            <SelectTrigger className=" w-[150px]">
               <SelectValue placeholder="Select your city" />
             </SelectTrigger>
             <SelectContent>
@@ -39,7 +39,7 @@ const PickUp = () => {
           </Select>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col border-r-2">
           <p className="text-sm ml-3 font-bold text-gray-700">Date</p>
           <Select>
             <SelectTrigger className="w-[150px]">
