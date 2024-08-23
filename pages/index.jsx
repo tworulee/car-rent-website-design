@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 // import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 import { FaArrowDownLong, FaArrowUpLong } from "react-icons/fa6";
 import Card from "./../components/Card";
+import Footer from "@/components/Footer";
 
 const index = () => {
   return (
@@ -43,10 +44,11 @@ const index = () => {
           <Card />
         </div>
         <div className="flex justify-center">
-          <Button className="bg-blue-700 ml-7 mt-9 pt-7 pb-7 pl-4 pr-4 text-white rounded-xl">
+          <Button className="bg-blue-700 ml-7 mt-9  pt-7 pb-7 pl-4 pr-4 text-white rounded-xl">
             Show More Car
           </Button>
         </div>
+        <Footer/>
       </div>
     </>
   );
