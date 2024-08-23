@@ -5,7 +5,7 @@ const NavBarTop = () => {
   return (
     <>
       <div class="flex  justify-between  items-center">
-        <div class="flex space-x-16">
+        <div className="flex space-x-16">
           <img
             src="/Logo.png"
             alt="logo"

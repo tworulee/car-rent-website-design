@@ -12,7 +12,7 @@ const BigCard = () => {
             Ease of doing a car rental safely and reliably. Of course at a low
             price.
           </p>
-          <Button className="bg-blue-800 text-white mt-6 p-6 rounded-[4px]">
+          <Button className="bg-blue-700 text-white mt-6 p-6 rounded-[4px]">
             Rental Car
           </Button>
         </div>
