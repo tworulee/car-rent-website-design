@@ -12,19 +12,21 @@ const index = () => {
   return (
     <>
       <NavBarTop />
-      <div className="bg-[#F6F7F9] w-full h-[2120px] mt-7">
+      <div className="bg-[#F6F7F9] w-full h-[2150px] mt-7">
         <div className="flex justify-center items-center">
           <BigCard />
           <BigCard />
         </div>
-        <div className="flex justify-center items-center">
-          <PickUp />
-          <Button className="bg-blue-700 mt-5 ml-8 pt-7 pb-7 pl-4 pr-4 text-white rounded-xl">
+
+        <div className="flex flex-col xl:flex-row justify-center items-center space-y-5 xl:space-y-7 xl:space-x-8">
+          <PickUp className="w-full xl:w-auto" />
+          <Button className="bg-blue-700 pt-7 pb-7 pl-4 pr-4 text-white rounded-xl">
             <FaArrowUpLong />
             <FaArrowDownLong />
           </Button>
-          <PickUp />
+          <PickUp className="w-full xl:w-auto" />
         </div>
+
         <div className="flex justify-center mt-[100px] ml-8  space-x-4 ">
           <Card />
           <Card />
@@ -48,8 +50,8 @@ const index = () => {
             Show More Car
           </Button>
         </div>
-        <Footer/>
       </div>
+      <Footer />
     </>
   );
 };
