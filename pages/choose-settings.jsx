@@ -9,9 +9,9 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Settings = () => {
   return (
-    <div className="grid grid-cols-4 mt-6 bg-[#F6F7F9] ">
+    <div className="grid grid-cols-4 mt-6">
       <div>
-        <div className="hidden md:block col-span-1 h-auto bg-white font-medium">
+        <div className="hidden md:block col-span-1 h-full bg-white font-medium">
           <div className="text-lg m-8">
             <p className="mb-7 font-light">Type</p>
             <div>
