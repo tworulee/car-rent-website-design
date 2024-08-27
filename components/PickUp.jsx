@@ -13,7 +13,7 @@ import {
 
 const PickUp = () => {
   return (
-    <div className="flex flex-col w-[590px] h-auto bg-white mt-[32px] ml-9 p-4 space-y-4 rounded-xl">
+    <div className="flex flex-col  h-auto bg-white mt-[32px]  p-4 space-y-4 rounded-xl">
       <RadioGroup defaultValue="comfortable">
         <div className="flex items-center space-x-2 ml-3">
           <RadioGroupItem value="default" id="r1" />
