@@ -3,6 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Slider } from "@/components/ui/slider";
 import { RxHamburgerMenu } from "react-icons/rx";
 import SmallCard from "@/components/SmallCard";
+import { Button } from "@/components/ui/button";
 
 const RentDetail = () => {
   return (
@@ -97,6 +98,10 @@ const RentDetail = () => {
             <div className="ml-6 mt-8" >
                 <img src="/Spesification.png" alt="spesific" />
             </div>
+            <div className="flex justify-between mt-20 ml-6 mr-6  ">
+                <img src="/price.png" alt="price" />
+                <Button className="bg-blue-700  text-white text-xl rounded-xl mr-7">Rent Now</Button>
+            </div> 
           </div>
         </div>
       </div>
