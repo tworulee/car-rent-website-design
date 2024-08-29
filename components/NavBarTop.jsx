@@ -1,6 +1,6 @@
 import React from "react";
 import { Input } from "./ui/input";
-
+import Link from "next/link";
 
 const NavBarTop = () => {
   return (
@@ -22,11 +22,14 @@ const NavBarTop = () => {
               className="pl-[50px] pr-[30px] py-2 w-full sm:w-[300px] md:w-[400px] lg:w-[500px] opacity-40 rounded-full"
               placeholder="Search something here "
             />
-            <img
-              src="/filter.png"
-              alt="filter"
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 w-[24px] h-[24px] "
-            />
+            <Link href="/choose-settings">
+              {" "}
+              <img
+                src="/filter.png"
+                alt="filter"
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 w-[24px] h-[24px] "
+              />
+            </Link>
           </div>
         </div>
         <div className="flex items-center mt-4 md:mt-[40px] space-x-4">
