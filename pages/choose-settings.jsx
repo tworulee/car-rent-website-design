@@ -70,7 +70,7 @@ const Settings = () => {
         </div>
       </div>
 
-      <div className="col-span-3 bg-[#F6F7F9] ">
+      <div className="col-span-3 bg-[#F6F7F9]">
         <div className="flex flex-col xl:flex-row justify-center items-center space-y-7 xl:space-x-4 relative">
           <PickUp className="flex-1 w-full" />
           <Button className="absolute left-1/2  transform -translate-x-1/2 xl:-translate-x-12 top-25 xl:top-10 bg-blue-700 pt-7 pb-7 pl-4 pr-4 text-white rounded-xl z-10">

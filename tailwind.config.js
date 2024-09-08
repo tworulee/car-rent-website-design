@@ -19,6 +19,10 @@ module.exports = {
     extend: {
       opacity: {
         40: "0.40",
+        50: "0.50",
+        60: "0.60",
+        70: "0.70",
+        70: "0.70",
       },
       colors: {
         border: "hsl(var(--border))",

@@ -4,6 +4,8 @@ import { Slider } from "@/components/ui/slider";
 import { RxHamburgerMenu } from "react-icons/rx";
 import SmallCard from "@/components/SmallCard";
 import { Button } from "@/components/ui/button";
+import Reviews from "@/components/Reviews";
+import Card from "@/components/Card";
 
 const RentDetail = () => {
   return (
@@ -71,13 +73,13 @@ const RentDetail = () => {
       <div className="col-span-3 grid grid-cols-2 bg-[#F6F7F9] ">
         <div className="  ">
           <SmallCard />
-          <div className="flex ml-12 mt-4">
+          <div className="flex justify-center  ml-12 mt-4 w-5/6">
             <img className="ml-3" src="/View 1.png" alt="view" />
             <img className="ml-3" src="/View 2.png" alt="view" />
             <img className="ml-3" src="/View 3.png" alt="view" />
           </div>
         </div>
-        <div className="   ">
+        <div className=" max-w-[98%]  ">
           <div className="mt-8 bg-white rounded-xl">
             <div className="flex justify-between ml-6 mr-6">
               <div className="mt-4 mb-4">
@@ -95,14 +97,33 @@ const RentDetail = () => {
                 "race track".
               </p>
             </div>
-            <div className="ml-6 mt-8" >
-                <img src="/Spesification.png" alt="spesific" />
+            <div className="ml-6 mt-8">
+              <img src="/Spesification.png" alt="spesific" />
             </div>
             <div className="flex justify-between mt-20 ml-6 mr-6  ">
-                <img src="/price.png" alt="price" />
-                <Button className="bg-blue-700  text-white text-xl rounded-xl mr-7">Rent Now</Button>
-            </div> 
+              <img className="w-1/3 h-1/4" src="/price.png" alt="price" />
+              <Button className="bg-blue-700  text-white text-xl rounded-xl mr-7 p-7 mb-6">
+                Rent Now
+              </Button>
+            </div>
           </div>
+        </div>
+        {/*----------- rewiews----------- */}
+        <div className=" col-span-3 max-w-[100%] mx-auto mt-8 ">
+          <Reviews />
+          <Reviews />
+        </div>
+        <div className="col-span-3 flex ml-12  gap-5 mt-2 p-4">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <div className="col-span-3 flex ml-12 gap-5 mt-2 p-4">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </div>
